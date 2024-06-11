@@ -11,133 +11,124 @@ namespace CalculadoraWeb
 {
 
 
-	public partial class About
+	public partial class CalculadoraCompleta
 	{
 
 		/// <summary>
-		/// idFibonacci control.
+		/// ErroLabel control.
 		/// </summary>
 		/// <remarks>
 		/// Auto-generated field.
 		/// To modify move field declaration from designer file to code-behind file.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.Button idFibonacci;
+		protected global::System.Web.UI.WebControls.Label ErroLabel;
 
 		/// <summary>
-		/// idJuros control.
+		/// PrimeiroNumeroLabel control.
 		/// </summary>
 		/// <remarks>
 		/// Auto-generated field.
 		/// To modify move field declaration from designer file to code-behind file.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.Button idJuros;
+		protected global::System.Web.UI.WebControls.Label PrimeiroNumeroLabel;
 
 		/// <summary>
-		/// idSimulacao control.
+		/// NumeroAtualLabel control.
 		/// </summary>
 		/// <remarks>
 		/// Auto-generated field.
 		/// To modify move field declaration from designer file to code-behind file.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.Button idSimulacao;
+		protected global::System.Web.UI.WebControls.Label NumeroAtualLabel;
 
 		/// <summary>
-		/// idGerar control.
+		/// NumeroAtualHidden control.
 		/// </summary>
 		/// <remarks>
 		/// Auto-generated field.
 		/// To modify move field declaration from designer file to code-behind file.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.Button idGerar;
+		protected global::System.Web.UI.HtmlControls.HtmlInputHidden NumeroAtualHidden;
 
 		/// <summary>
-		/// FibonacciPanel control.
+		/// OperacaoCEButton control.
 		/// </summary>
 		/// <remarks>
 		/// Auto-generated field.
 		/// To modify move field declaration from designer file to code-behind file.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.Panel FibonacciPanel;
+		protected global::System.Web.UI.WebControls.Button OperacaoCEButton;
 
 		/// <summary>
-		/// CalculadoraFibonacci control.
+		/// OperacaoCButton control.
 		/// </summary>
 		/// <remarks>
 		/// Auto-generated field.
 		/// To modify move field declaration from designer file to code-behind file.
 		/// </remarks>
-		protected global::CalculadoraWeb.CalculadoraFibo CalculadoraFibonacci;
+		protected global::System.Web.UI.WebControls.Button OperacaoCButton;
 
 		/// <summary>
-		/// CalcularJurosPanel control.
+		/// OperacaoBackSpaceButton control.
 		/// </summary>
 		/// <remarks>
 		/// Auto-generated field.
 		/// To modify move field declaration from designer file to code-behind file.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.Panel CalcularJurosPanel;
+		protected global::System.Web.UI.WebControls.Button OperacaoBackSpaceButton;
 
 		/// <summary>
-		/// CalculadoraJurosComposto control.
+		/// OperacaoDividirButton control.
 		/// </summary>
 		/// <remarks>
 		/// Auto-generated field.
 		/// To modify move field declaration from designer file to code-behind file.
 		/// </remarks>
-		protected global::CalculadoraWeb.CalculadoraJurosComposto CalculadoraJurosComposto;
+		protected global::System.Web.UI.WebControls.Button OperacaoDividirButton;
 
 		/// <summary>
-		/// CalcularSimulacaoFinancimanetoPanel control.
+		/// OperacaoMultiplicarButton control.
 		/// </summary>
 		/// <remarks>
 		/// Auto-generated field.
 		/// To modify move field declaration from designer file to code-behind file.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.Panel CalcularSimulacaoFinancimanetoPanel;
+		protected global::System.Web.UI.WebControls.Button OperacaoMultiplicarButton;
 
 		/// <summary>
-		/// CalculadoraSimulacaoFinanciamento control.
+		/// OperacaoSubtrairButton control.
 		/// </summary>
 		/// <remarks>
 		/// Auto-generated field.
 		/// To modify move field declaration from designer file to code-behind file.
 		/// </remarks>
-		protected global::CalculadoraWeb.CalculadoraSimulacaoFinanciamento CalculadoraSimulacaoFinanciamento;
+		protected global::System.Web.UI.WebControls.Button OperacaoSubtrairButton;
 
 		/// <summary>
-		/// GerenciadorDeNomesPanel control.
+		/// AlternarPositivoNegativo control.
 		/// </summary>
 		/// <remarks>
 		/// Auto-generated field.
 		/// To modify move field declaration from designer file to code-behind file.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.Panel GerenciadorDeNomesPanel;
+		protected global::System.Web.UI.WebControls.Button AlternarPositivoNegativo;
 
 		/// <summary>
-		/// NomeTextBox control.
+		/// VirgulaButton control.
 		/// </summary>
 		/// <remarks>
 		/// Auto-generated field.
 		/// To modify move field declaration from designer file to code-behind file.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.TextBox NomeTextBox;
+		protected global::System.Web.UI.WebControls.Button VirgulaButton;
 
 		/// <summary>
-		/// AdicionarNomeButton control.
+		/// OperacaoSomarButton control.
 		/// </summary>
 		/// <remarks>
 		/// Auto-generated field.
 		/// To modify move field declaration from designer file to code-behind file.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.Button AdicionarNomeButton;
-
-		/// <summary>
-		/// NomesRepeater control.
-		/// </summary>
-		/// <remarks>
-		/// Auto-generated field.
-		/// To modify move field declaration from designer file to code-behind file.
-		/// </remarks>
-		protected global::System.Web.UI.WebControls.Repeater NomesRepeater;
+		protected global::System.Web.UI.WebControls.Button OperacaoSomarButton;
 	}
 }

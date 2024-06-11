@@ -16,13 +16,13 @@
     <main aria-labelledby="title">
 
         <div>
-			<asp:Button runat="server" Text="Calcular Fibonacci" OnClick="Unnamed_Click" />
+			<asp:Button id="idFibonacci" runat="server" Text="Calcular Fibonacci" OnClick="Unnamed_Click" />
 			<br />
-            <asp:Button runat="server" Text="Calcular Juros" OnClick="Unnamed_Click1" />
+            <asp:Button id="idJuros" runat="server" Text="Calcular Juros" OnClick="Unnamed_Click" />
             <br />
-            <asp:Button runat="server" Text="Calcular Simulação de Financiamento" OnClick="Unnamed_Click2" />
+            <asp:Button id="idSimulacao" runat="server" Text="Calcular Simulação de Financiamento" OnClick="Unnamed_Click" />
 			<br />
-            <asp:Button runat="server" Text="Gerenciador de Nomes" OnClick="Unnamed_Click3" />
+            <asp:Button id="idGerar" runat="server" Text="Gerenciador de Nomes" OnClick="Unnamed_Click" />
         </div>
 
         <asp:panel runat="server" ID="FibonacciPanel" Visible="false">
